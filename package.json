@@ -1,0 +1,44 @@
+{
+  "name": "chromatic",
+  "version": "1.0.0",
+  "description": "Explore, visualize, and prototype your UI components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteor/chromatic.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meteor/chromatic/issues"
+  },
+  "homepage": "https://github.com/meteor/chromatic#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "assert": "^1.4.1",
+    "autosize": "3.0.15",
+    "babel-runtime": "^6.23.0",
+    "classnames": "^2.2.5",
+    "create-react-class": "^15.7.0",
+    "faker": "^3.1.0",
+    "meteor-node-stubs": "^1.2.5",
+    "prop-types": "^15.8.1",
+    "react": "^15.2.1",
+    "react-addons-create-fragment": "^15.2.1",
+    "react-addons-css-transition-group": "^15.2.1",
+    "react-addons-linked-state-mixin": "^15.2.1",
+    "react-addons-perf": "^15.2.1",
+    "react-addons-pure-render-mixin": "^15.2.1",
+    "react-addons-test-utils": "^15.2.1",
+    "react-addons-transition-group": "^15.2.1",
+    "react-addons-update": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-input-autosize": "^1.1.0",
+    "react-input-mask": "^0.7.2",
+    "velocity-animate": "^1.2.3",
+    "velocity-react": ">=1.1.4"
+  }
+}

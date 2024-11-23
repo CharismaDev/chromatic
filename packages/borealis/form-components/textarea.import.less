@@ -1,0 +1,28 @@
+@import '../util/index.import.less';
+
+// Input's look like text fields
+textarea {
+  .font-s2;
+  .placeholder(#8d91a3);
+
+  /* Support / Porcelain */
+  padding: 5px;
+  height: 56px;
+  border: 2px solid #f3f4f5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  &[disabled] {
+    /* Support / Porcelain */
+
+    background: #f3f4f5;
+    /* Support / Porcelain */
+
+    border: 2px solid #f3f4f5;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+}
+
+textarea.secondary {
+  box-shadow: @color-mediumlight 0 0 0 1px inset;
+}
